@@ -10,8 +10,7 @@ class Talker():          #ヘッダの下にTalkerというクラスを作成
         # ↑ オブジェクトにひとつパブリッシャと変数をもたせる。
 rclpy.init()
 node = Node("talker")            #ノード作成（nodeという「オブジェクト」を作成）
-pub = node.create_publisher(Int16, "countup", 10)   #パブリッシャのオブジェクト作成
-n = 0 #カウント用変数
+talker = Talker()      #オブジェクトを作成（__init__が実行される。）
 
 def cb():          #17行目で定期実行されるコールバック関数
     msg = Int16()  #メッセージの「オブジェクト」

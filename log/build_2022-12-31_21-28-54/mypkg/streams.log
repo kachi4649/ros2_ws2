@@ -1,0 +1,24 @@
+[0.390s] Invoking command in '/home/kachi/ros2_ws2/ros2_ws2/src/mypkg': PYTHONPATH=/home/kachi/ros2_ws2/install/mypkg/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/mypkg build --build-base /home/kachi/ros2_ws2/build/mypkg/build install --prefix /home/kachi/ros2_ws2/install/mypkg --record /home/kachi/ros2_ws2/build/mypkg/install.log --single-version-externally-managed
+[0.564s] running egg_info
+[0.565s] writing ../../../build/mypkg/mypkg.egg-info/PKG-INFO
+[0.565s] writing dependency_links to ../../../build/mypkg/mypkg.egg-info/dependency_links.txt
+[0.566s] writing entry points to ../../../build/mypkg/mypkg.egg-info/entry_points.txt
+[0.566s] writing requirements to ../../../build/mypkg/mypkg.egg-info/requires.txt
+[0.566s] writing top-level names to ../../../build/mypkg/mypkg.egg-info/top_level.txt
+[0.591s] reading manifest file '../../../build/mypkg/mypkg.egg-info/SOURCES.txt'
+[0.592s] writing manifest file '../../../build/mypkg/mypkg.egg-info/SOURCES.txt'
+[0.592s] running build
+[0.592s] running build_py
+[0.592s] running install
+[0.592s] running install_lib
+[0.593s] running install_data
+[0.593s] copying package.xml -> /home/kachi/ros2_ws2/install/mypkg/share/mypkg
+[0.594s] copying launch/talk_listen.launch.py -> /home/kachi/ros2_ws2/install/mypkg/share/mypkg
+[0.594s] running install_egg_info
+[0.595s] removing '/home/kachi/ros2_ws2/install/mypkg/lib/python3.6/site-packages/mypkg-0.0.0-py3.6.egg-info' (and everything under it)
+[0.595s] Copying ../../../build/mypkg/mypkg.egg-info to /home/kachi/ros2_ws2/install/mypkg/lib/python3.6/site-packages/mypkg-0.0.0-py3.6.egg-info
+[0.596s] running install_scripts
+[0.611s] Installing listener script to /home/kachi/ros2_ws2/install/mypkg/lib/mypkg
+[0.611s] Installing talker script to /home/kachi/ros2_ws2/install/mypkg/lib/mypkg
+[0.611s] writing list of installed files to '/home/kachi/ros2_ws2/build/mypkg/install.log'
+[0.626s] Invoked command in '/home/kachi/ros2_ws2/ros2_ws2/src/mypkg' returned '0': PYTHONPATH=/home/kachi/ros2_ws2/install/mypkg/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/mypkg build --build-base /home/kachi/ros2_ws2/build/mypkg/build install --prefix /home/kachi/ros2_ws2/install/mypkg --record /home/kachi/ros2_ws2/build/mypkg/install.log --single-version-externally-managed
